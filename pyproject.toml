@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "molecular-parser"
+version = "0.1.0"
+description = "FASTA sequence analysis and CSV reporting with Biopython."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "biopython",
+]
+
+[project.scripts]
+molecular-parser = "molecular_parser.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["molecular_parser*"]
