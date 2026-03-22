@@ -1,4 +1,4 @@
-# molecular-parser
+# Molecular Parser
 
 `molecular-parser` is a fresh rebuild of my old Biopython-based project. It reads FASTA files, detects DNA/RNA/protein sequences, calculates useful sequence metrics, and exports the results as CSV.
 
